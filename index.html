@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Oficjalna Strona Klanu CS:GO Non Omnis Moriar</title>
+	<meta name="description" content="Honda">
+	<meta name="keywords" content="Honda">
+	<meta name="author" content="Artur Jankowski">
+	<meta http-equv="X-UaCompatible" content="IE=edge">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="sss.js"></script>
+</head>
+<body>
+<script src="sss.js"></script>
+	<div class="container">
+
+			<div class="content">
+				<div class="wrapper">
+					<nav class="navbar">
+						<img class="logo" src="./img/honda-logo.png">
+						<ul>
+							<li><a class="active" href="index.html">Samochody nowe</a></li>
+							<li><a href="galeria.html">Galeria</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+                            <li><a href="https://www.honda.pl/cars/used.html">Więcej o nas</a></li>
+						</ul>
+
+					</nav>
+
+
+			</div>
+
+				<div class="but">
+					<a href="#kup"><button>Nasza oferta</button></a>
+				</div>
+
+
+			</div>
+
+                <a name="kup">.</a>
+                <center><h3>Nasza Oferta</h3></center>
+                <button class="accordion"><center><h1>Honda Jazz</h1><img src="./img/K1.png"></center></button>
+                <div class="panel">
+                    <h1>Przedstawiamy całkowicie nową Hondę Jazz, którą wyposażono w technologię hybrydową Hondy — e:HEV. Ten układ napędowy szybko reaguje na polecenia, płynnie pracuje i jest bardzo wydajny.</h1>
+                </div>
+
+                <button class="accordion"><center><h1>Honda Civic type R</h1><img src="./img/K2.png"></center></button>
+                <div class="panel">
+                    <h1>Sportowe 20-calowe aluminiowe felgi i dolny spojler nie kłamią — Type R GT już na pierwszy rzut oka zdradza swoje intencje. Jednak prawdziwe źródło atletycznego charakteru samochodu znajduje się pod maską: oszczędny, mocny turbodoładowany 2,0-litrowy silnik VTEC o bardzo wysokiej sprawności, który osiąga 320 KM. Samochód ma oszałamiające wnętrze całe w czerni, zapewnia wysoki poziom komfortu z jazdy oraz rozwiązania ograniczające hałas i drgania. Dzięki wyeliminowaniu tych zakłóceń możesz się skupić wyłącznie na drodze.</h1>
+                </div>
+                <button class="accordion"><center><h1>Honda NSX</h1><img src="./img/K3.png"></center></button>
+                <div class="panel">
+                    <h1>Czujemy to na początku każdego projektu, niezależnie od samochodu. Jednak przy NSX czuliśmy coś wyjątkowego — znacznie głębszego. Poczujesz to podczas jazdy. Wtedy zrozumiesz, dlaczego ten samochód znaczy dla nas więcej, niż każdy inny, który dotychczas stworzyliśmy.</h1>
+                </div>
+                <button class="accordion"><center><h1>Honda HR-V</h1><img src="./img/K4.png"></center></button>
+                <div class="panel">
+                    <h1>Nasz popularny sportowy SUV w stylu coupe otrzymał nowszy wygląd, który podkreśla jego sportowy charakter. Nowa Honda HR-V doskonale się prezentuje. Silnik 1,5 VTEC TURBO gwarantuje niespotykaną przyjemność z jazdy.</h1>
+                </div>
+
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
+                <div class="footer">
+                    <a href="https://www.honda.pl/cars/dealer-search.html"><h1>ZNAJDŹ DEALERA</h1></a>
+                </div>
+            </div>
+
+
+
+
+
+
+        </body>
+        </html>
